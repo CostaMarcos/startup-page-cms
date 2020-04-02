@@ -6,8 +6,6 @@
       <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup_page/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/startup_page/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +24,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alura_receitas_django-aula_5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cursoDjango" />
   </component>
-  <component name="RunManager" selected="Python.runserver">
+  <component name="RunManager" selected="Python.migrate">
     <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
       <module name="cms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,26 +144,30 @@
       <screen x="0" y="27" width="1360" height="741" />
     </state>
     <state x="138" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585787249976" />
-    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585848908382">
+    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585865045781">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585848908382" />
-    <state width="1336" height="181" key="GridCell.Tab.0.bottom" timestamp="1585850023703">
+    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585865045781" />
+    <state width="1336" height="211" key="GridCell.Tab.0.bottom" timestamp="1585866796092">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1336" height="181" key="GridCell.Tab.0.bottom/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585850023703" />
-    <state width="1336" height="181" key="GridCell.Tab.0.center" timestamp="1585850023703">
+    <state width="1336" height="211" key="GridCell.Tab.0.bottom/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585866796092" />
+    <state width="1416" height="211" key="GridCell.Tab.0.bottom/0.27.1360.741/1360.0.1440.900@1360.0.1440.900" timestamp="1585866700875" />
+    <state width="1336" height="211" key="GridCell.Tab.0.center" timestamp="1585866796091">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1336" height="181" key="GridCell.Tab.0.center/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585850023703" />
-    <state width="1336" height="181" key="GridCell.Tab.0.left" timestamp="1585850023703">
+    <state width="1336" height="211" key="GridCell.Tab.0.center/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585866796091" />
+    <state width="1416" height="211" key="GridCell.Tab.0.center/0.27.1360.741/1360.0.1440.900@1360.0.1440.900" timestamp="1585866700874" />
+    <state width="1336" height="211" key="GridCell.Tab.0.left" timestamp="1585866796091">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1336" height="181" key="GridCell.Tab.0.left/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585850023703" />
-    <state width="1336" height="181" key="GridCell.Tab.0.right" timestamp="1585850023703">
+    <state width="1336" height="211" key="GridCell.Tab.0.left/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585866796091" />
+    <state width="1416" height="211" key="GridCell.Tab.0.left/0.27.1360.741/1360.0.1440.900@1360.0.1440.900" timestamp="1585866700874" />
+    <state width="1336" height="211" key="GridCell.Tab.0.right" timestamp="1585866796092">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1336" height="181" key="GridCell.Tab.0.right/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585850023703" />
+    <state width="1336" height="211" key="GridCell.Tab.0.right/0.27.1360.741/1360.0.1440.900@0.27.1360.741" timestamp="1585866796092" />
+    <state width="1416" height="211" key="GridCell.Tab.0.right/0.27.1360.741/1360.0.1440.900@1360.0.1440.900" timestamp="1585866700874" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

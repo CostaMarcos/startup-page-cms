@@ -12,7 +12,7 @@ class Navigation(models.Model):
         return self.StartupName
 
 
-class First(models.Model):
+class FirstPlace(models.Model):
     Template = models.CharField(max_length=50, default="Template 1")
     Title = models.CharField(max_length=200, default="The best startup ever")
     Description = models.TextField(max_length=300, default="We can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!")
@@ -23,7 +23,7 @@ class First(models.Model):
         return self.Template
 
 
-class Second(models.Model):
+class AboutYou(models.Model):
     Template = models.CharField(max_length=50,default="Template 1")
     Title = models.CharField(max_length=100, default="We've got what you need!")
     Description = models.TextField(max_length=300)
@@ -34,7 +34,7 @@ class Second(models.Model):
         return self.Template
 
 
-class Third(models.Model):
+class YourService(models.Model):
     Template = models.CharField(max_length=50,default="Template 1")
     MainTitle = models.CharField(max_length=100, default="At Your Service")
     FirstItemTitle = models.CharField(max_length=100)
@@ -43,6 +43,8 @@ class Third(models.Model):
     SecondItemDescription = models.TextField(max_length=300)
     ThirdItemTitle = models.CharField(max_length=100)
     ThirdItemDescription = models.TextField(max_length=300)
+    FourthItemTitle = models.CharField(max_length=100, default="")
+    FourthItemDescription = models.TextField(max_length=300, default="")
 
     def __str__(self):
         return self.Template
@@ -91,9 +93,9 @@ class Contact(models.Model):
 
 class All(models.Model):
     navigation = models.ForeignKey(Navigation, on_delete=models.CASCADE, verbose_name="Chose a navigation")
-    session1 = models.ForeignKey(First, on_delete=models.CASCADE, verbose_name="Chose a session 1")
-    session2 = models.ForeignKey(Second, on_delete=models.CASCADE, verbose_name="Chose a session 2")
-    session3 = models.ForeignKey(Third, on_delete=models.CASCADE, verbose_name="Chose a session 3")
+    session1 = models.ForeignKey(FirstPlace, on_delete=models.CASCADE, verbose_name="Chose a session 1")
+    session2 = models.ForeignKey(AboutYou, on_delete=models.CASCADE, verbose_name="Chose a session 2")
+    session3 = models.ForeignKey(YourService, on_delete=models.CASCADE, verbose_name="Chose a session 3")
     images = models.ForeignKey(Images, on_delete=models.CASCADE, verbose_name="Chose an images description")
     download = models.ForeignKey(DownloadSession, on_delete=models.CASCADE, verbose_name="Download session")
     contact = models.ForeignKey(Contact, on_delete=models.CASCADE, verbose_name="Contact session")
