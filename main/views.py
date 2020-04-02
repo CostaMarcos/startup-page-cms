@@ -1,8 +1,8 @@
 from django.shortcuts import render
-from .models import Header
+from .models import All
 
 
 def index(request):
     data = {}
-    data['infos'] = Header.objects.all()
+    data['infos'] = All.objects.all()
     return render(request, 'main/index.html', data)
